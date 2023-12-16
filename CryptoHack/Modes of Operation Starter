@@ -1,0 +1,3 @@
+1. To get the ciphertext we will submit ENCRYPT_FLAG(). The output is: {"ciphertext":"188bc9522883a992cd99f9b2b8ec84fb150c1abe17e7a8ed04a768ad1d11fc07"}
+2. Input the cyphertext in DECRYPT(CIPHERTEXT) section and submit. The output is {"plaintext":"63727970746f7b626c30636b5f633170683372355f3472335f663435375f217d"}
+3. Now put the plaintext into the HEX ENCODER/DECODER section. We will get the flag: crypto{bl0ck_c1ph3r5_4r3_f457_!}
