@@ -1,3 +1,5 @@
+# I uploaded screenshots in the comment section.
+
 from pwn import * 
 import json
 import codecs, base64
