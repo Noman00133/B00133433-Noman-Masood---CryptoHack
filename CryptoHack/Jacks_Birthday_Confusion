@@ -1,0 +1,15 @@
+from math import factorial
+
+# number of trials
+n = 2048
+
+# go through the values 0 to n-1
+for i in range(n):
+	# using the binomial coefficient formula, calculate the probability of the most "i" results in the "n" trials
+	flag = 1 - factorial(n) / (factorial(n - i)*pow(n,i))
+
+	# see if the probability is greater than 0.75
+	if flag > 0.75:
+
+		print(i) # print value "i"
+		break # terminate the loop
