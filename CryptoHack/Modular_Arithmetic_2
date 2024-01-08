@@ -1,0 +1,7 @@
+p = 65537
+a = 273246787654
+
+# Calculating  a^(65537-1) % 65537 using pow function
+flag = pow(a, p - 1, p)
+
+print(flag)
